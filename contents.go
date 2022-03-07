@@ -31,3 +31,18 @@ package main
 // var i int = 100
 // var b bool = false
 // var f float64 = 44.45
+
+// Printing Variables
+// fmt.print
+// fmt.println
+// new line character - \n
+// fmt.printf - %s Object
+// Format specifier - %v - default format // fmt.Printf("Welcome to, %v", city)
+// %d - format decimal integers // fmt.Printf("Marks: %d", grades)
+// %T - type of the value
+// %c - character
+// %q - quoted string/character
+// %s- plain string
+// %t -true or false
+// %f-floating numbers
+// %.2f-floating numbers upto 2 decimal places
