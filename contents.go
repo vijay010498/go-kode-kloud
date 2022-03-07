@@ -24,3 +24,10 @@ package main
 // 3. String - string - "abc" - 16 bytes
 // 4. Boolean - bool
 // 5. Array, slices, maps -
+
+// Variables, Syntax and declaration
+// Declaring - Explicitly or implicitly
+// 1st way : var s string = "Hello World"
+// var i int = 100
+// var b bool = false
+// var f float64 = 44.45
