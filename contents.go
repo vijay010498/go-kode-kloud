@@ -53,3 +53,9 @@ package main
 //s string = "foo"
 //i int = 5)
 // short variable declaration // s:= "Hello World" // no need to use var or data types
+
+// Variable scope
+// Block  { //outer block  { //inner block }  }
+// Local and Global Variables
+// Local - Inside a function of block
+// Global- Outside a function or block -accessed from any part of the program

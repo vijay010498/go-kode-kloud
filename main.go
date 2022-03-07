@@ -23,7 +23,14 @@ func main() {
 	//var name string = "vijay"
 	//var i int = 78
 	//fmt.Printf("Hey, %v! you have scored %d/100 in maths", name, i)
-	name := "vijay"
-	name = "pablo"
-	fmt.Println(name)
+	//name := "vijay"
+	//name = "pablo"
+	//fmt.Println(name)
+	city := "London"
+	{
+		country := "UK"
+		fmt.Println(country)
+		fmt.Println(city)
+	}
+	fmt.Println(city)
 }
