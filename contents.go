@@ -37,7 +37,7 @@ package main
 // fmt.println
 // new line character - \n
 // fmt.printf - %s Object
-// Format specifier - %v - default format // fmt.Printf("Welcome to, %v", city)
+// Format specifier - %v - default format print value // fmt.Printf("Welcome to, %v", city)
 // %d - format decimal integers // fmt.Printf("Marks: %d", grades)
 // %T - type of the value
 // %c - character
@@ -72,4 +72,7 @@ package main
 //var name string
 //fmt.Print("Enter your name: ")
 //fmt.Scanf("%s", &name)
-//
+
+// Find the type of the variable
+//%T - format specifier
+//reflect.TypeOf-

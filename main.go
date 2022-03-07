@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func main() {
 	//fmt.Println("Hello World")
@@ -33,10 +36,13 @@ func main() {
 	//	fmt.Println(city)
 	//}
 	//fmt.Println(city)
-	var name string
-	var is_muggle bool
-	fmt.Print("Enter your name and are you a muggle: ")
-	//fmt.Scanf("%s", &name)
-	fmt.Scanf("%s %t", &name, &is_muggle)
-	fmt.Println(name, is_muggle)
+	//var name string
+	//var is_muggle bool
+	//fmt.Print("Enter your name and are you a muggle: ")
+	////fmt.Scanf("%s", &name)
+	//fmt.Scanf("%s %t", &name, &is_muggle)
+	//fmt.Println(name, is_muggle)
+	var grades int = 42
+	fmt.Printf("Variable grades=%v is of type %T \n", grades, grades)
+	fmt.Printf("Type: %v \n", reflect.TypeOf("Vijay"))
 }
