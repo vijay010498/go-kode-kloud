@@ -76,3 +76,10 @@ package main
 // Find the type of the variable
 //%T - format specifier
 //reflect.TypeOf-
+
+// Converting between Types
+// Type Casting
+//var f float64 = float64(90)
+//strconv package int to string and vice versa
+// Itoa() -  Integer to string
+// Atoi() - String to Integer

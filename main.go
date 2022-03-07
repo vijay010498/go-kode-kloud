@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"reflect"
+	"strconv"
 )
 
 func main() {
@@ -42,7 +42,15 @@ func main() {
 	////fmt.Scanf("%s", &name)
 	//fmt.Scanf("%s %t", &name, &is_muggle)
 	//fmt.Println(name, is_muggle)
-	var grades int = 42
-	fmt.Printf("Variable grades=%v is of type %T \n", grades, grades)
-	fmt.Printf("Type: %v \n", reflect.TypeOf("Vijay"))
+	//var grades int = 42
+	//fmt.Printf("Variable grades=%v is of type %T \n", grades, grades)
+	//fmt.Printf("Type: %v \n", reflect.TypeOf("Vijay"))
+	var i int = 90
+	var f float64 = float64(i)
+	var s string = strconv.Itoa(i)
+	var s1 string = "200"
+	s1int, err := strconv.Atoi(s1)
+	fmt.Printf("%.2f\n", f)
+	fmt.Printf("%q", s)
+	fmt.Printf("%v, %v", s1int, err)
 }
