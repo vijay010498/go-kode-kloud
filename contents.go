@@ -66,3 +66,10 @@ package main
 // int - 0
 // float64 - 0.0
 // string - ""
+
+// User Input
+//Scanf
+//var name string
+//fmt.Print("Enter your name: ")
+//fmt.Scanf("%s", &name)
+//

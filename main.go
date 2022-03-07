@@ -26,11 +26,17 @@ func main() {
 	//name := "vijay"
 	//name = "pablo"
 	//fmt.Println(name)
-	city := "London"
-	{
-		country := "UK"
-		fmt.Println(country)
-		fmt.Println(city)
-	}
-	fmt.Println(city)
+	//city := "London"
+	//{
+	//	country := "UK"
+	//	fmt.Println(country)
+	//	fmt.Println(city)
+	//}
+	//fmt.Println(city)
+	var name string
+	var is_muggle bool
+	fmt.Print("Enter your name and are you a muggle: ")
+	//fmt.Scanf("%s", &name)
+	fmt.Scanf("%s %t", &name, &is_muggle)
+	fmt.Println(name, is_muggle)
 }
