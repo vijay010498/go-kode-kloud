@@ -59,3 +59,10 @@ package main
 // Local and Global Variables
 // Local - Inside a function of block
 // Global- Outside a function or block -accessed from any part of the program
+
+// Zero Values
+// Declaring with no initial value -  Given Default Value
+// bool - false
+// int - 0
+// float64 - 0.0
+// string - ""
