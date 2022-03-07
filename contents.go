@@ -17,3 +17,10 @@ package main
 // Golang -  Either explicitly declaration ot inferred by compiler,
 // - Fast, statically typed compiled language feels like dynamically typed
 // Shot variable declaration // name:= "Vijay"
+
+// Kinds of Data Types
+// 1. Integers - int, uint - only positive include zero
+// 2. Float - float32, float64
+// 3. String - string - "abc" - 16 bytes
+// 4. Boolean - bool
+// 5. Array, slices, maps -
