@@ -46,3 +46,10 @@ package main
 // %t -true or false
 // %f-floating numbers
 // %.2f-floating numbers upto 2 decimal places
+
+// Declaring Variables
+// Shorthand// var s,t string = "foo", "bar"
+// shorthand different data types// var(
+//s string = "foo"
+//i int = 5)
+// short variable declaration // s:= "Hello World" // no need to use var or data types

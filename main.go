@@ -20,7 +20,10 @@ func main() {
 	//// %d - decimal Integers
 	//var grades int = 42
 	//fmt.Printf("Marks: %d", grades)
-	var name string = "vijay"
-	var i int = 78
-	fmt.Printf("Hey, %v! you have scored %d/100 in maths", name, i)
+	//var name string = "vijay"
+	//var i int = 78
+	//fmt.Printf("Hey, %v! you have scored %d/100 in maths", name, i)
+	name := "vijay"
+	name = "pablo"
+	fmt.Println(name)
 }
