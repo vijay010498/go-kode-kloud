@@ -83,3 +83,7 @@ package main
 //strconv package int to string and vice versa
 // Itoa() -  Integer to string
 // Atoi() - String to Integer
+
+// Constants
+// const cn int = 10 // data type is optional
+// Typed and untyped constants

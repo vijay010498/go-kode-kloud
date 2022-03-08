@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"strconv"
-)
+import "fmt"
 
 func main() {
 	//fmt.Println("Hello World")
@@ -45,12 +42,15 @@ func main() {
 	//var grades int = 42
 	//fmt.Printf("Variable grades=%v is of type %T \n", grades, grades)
 	//fmt.Printf("Type: %v \n", reflect.TypeOf("Vijay"))
-	var i int = 90
-	var f float64 = float64(i)
-	var s string = strconv.Itoa(i)
-	var s1 string = "200"
-	s1int, err := strconv.Atoi(s1)
-	fmt.Printf("%.2f\n", f)
-	fmt.Printf("%q", s)
-	fmt.Printf("%v, %v", s1int, err)
+	//var i int = 90
+	//var f float64 = float64(i)
+	//var s string = strconv.Itoa(i)
+	//var s1 string = "200"
+	//s1int, err := strconv.Atoi(s1)
+	//fmt.Printf("%.2f\n", f)
+	//fmt.Printf("%q", s)
+	//fmt.Printf("%v, %v", s1int, err)
+	const name = "Vijay" // untyped constant
+	const cname string = "String Constant"
+	fmt.Printf("%v, %T \n", name, name)
 }
